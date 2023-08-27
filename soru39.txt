@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    int x,y,t ;
+    printf("ilk sayinizi girin : ");
+    scanf("%d", &x);
+    printf("son sayinizi girin : ");
+    scanf("%d", &y);
+    
+    for(int i=x; i<=y; i++ ){
+        
+        if(!(i%17==0)){
+            t+=i;
+        }
+        
+    }
+      
+    printf("%d", t);
+    
+    return 0;
+}
